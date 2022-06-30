@@ -61,7 +61,12 @@ const Contact = () => {
 
       <p>
         Although I’m not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+        Whether you have a question or just want to say hi, I’ll try my best to get back to you
+      </p>
+      <p>
+        I’m pretty sure that most of the time I will be on my couch, but if you found me at a party,
+        which is never gonna happen, or in a cafe, don't hesitate to say hi. Let’s discuss why Your
+        Name is my favourite anime, or whether it’s Javascript or JavaScript.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
