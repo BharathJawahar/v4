@@ -1,45 +1,45 @@
 (self.webpackChunkv4 = self.webpackChunkv4 || []).push([
   [851],
   {
-    9857: function(e, t, n) {
+    9857: function (e, t, n) {
       'use strict';
       n.r(t);
-      const r = n(7294);
-      const o = n(5444);
-      const u = n(1804);
-      const a = n.n(u);
-      const i = n(5414);
-      const f = n(9);
-      const c = n(7140);
-      const l = f.ZP.main.withConfig({
-        displayName: 'post__StyledPostContainer',
-        componentId: 'sc-8858gx-0',
-      })(['max-width:1000px;']);
-      const s = f.ZP.header.withConfig({
-        displayName: 'post__StyledPostHeader',
-        componentId: 'sc-8858gx-1',
-      })(['margin-bottom:50px;.tag{margin-right:10px;}']);
-      const d = f.ZP.div.withConfig({
-        displayName: 'post__StyledPostContent',
-        componentId: 'sc-8858gx-2',
-      })(
-        [
-          'margin-bottom:100px;h1,h2,h3,h4,h5,h6{margin:2em 0 1em;}p{margin:1em 0;line-height:1.5;color:var(--light-slate);}a{',
-          ';}code{background-color:var(--lightest-navy);color:var(--lightest-slate);border-radius:var(--border-radius);font-size:var(--fz-sm);padding:0.2em 0.4em;}pre code{background-color:transparent;padding:0;}',
-        ],
-        function(e) {
-          return e.theme.mixins.inlineLink;
-        },
-      );
-      t.default = function(e) {
-        const t = e.data;
-        const n = e.location;
-        const u = t.markdownRemark;
-        const f = u.frontmatter;
-        const x = u.html;
-        const p = f.title;
-        const m = f.date;
-        const g = f.tags;
+      var r = n(7294),
+        o = n(5444),
+        u = n(1804),
+        a = n.n(u),
+        i = n(5414),
+        f = n(9),
+        c = n(7140),
+        l = f.ZP.main.withConfig({
+          displayName: 'post__StyledPostContainer',
+          componentId: 'sc-8858gx-0',
+        })(['max-width:1000px;']),
+        s = f.ZP.header.withConfig({
+          displayName: 'post__StyledPostHeader',
+          componentId: 'sc-8858gx-1',
+        })(['margin-bottom:50px;.tag{margin-right:10px;}']),
+        d = f.ZP.div.withConfig({
+          displayName: 'post__StyledPostContent',
+          componentId: 'sc-8858gx-2',
+        })(
+          [
+            'margin-bottom:100px;h1,h2,h3,h4,h5,h6{margin:2em 0 1em;}p{margin:1em 0;line-height:1.5;color:var(--light-slate);}a{',
+            ';}code{background-color:var(--lightest-navy);color:var(--lightest-slate);border-radius:var(--border-radius);font-size:var(--fz-sm);padding:0.2em 0.4em;}pre code{background-color:transparent;padding:0;}',
+          ],
+          function (e) {
+            return e.theme.mixins.inlineLink;
+          },
+        );
+      t.default = function (e) {
+        var t = e.data,
+          n = e.location,
+          u = t.markdownRemark,
+          f = u.frontmatter,
+          x = u.html,
+          p = f.title,
+          m = f.date,
+          g = f.tags;
         return r.createElement(
           c.Ar,
           { location: n },
@@ -72,10 +72,10 @@
                 r.createElement('span', null, ' — '),
                 g &&
                   g.length > 0 &&
-                  g.map(function(e, t) {
+                  g.map(function (e, t) {
                     return r.createElement(
                       o.Link,
-                      { key: t, to: `/pensieve/tags/${  a()(e)  }/`, className: 'tag' },
+                      { key: t, to: '/pensieve/tags/' + a()(e) + '/', className: 'tag' },
                       '#',
                       e,
                     );
@@ -87,80 +87,81 @@
         );
       };
     },
-    2705: function(e, t, n) {
-      const r = n(5639).Symbol;
+    2705: function (e, t, n) {
+      var r = n(5639).Symbol;
       e.exports = r;
     },
-    9932: function(e) {
-      e.exports = function(e, t) {
-        for (var n = -1, r = null == e ? 0 : e.length, o = Array(r); ++n < r; ) {o[n] = t(e[n], n, e);}
+    9932: function (e) {
+      e.exports = function (e, t) {
+        for (var n = -1, r = null == e ? 0 : e.length, o = Array(r); ++n < r; )
+          o[n] = t(e[n], n, e);
         return o;
       };
     },
-    2663: function(e) {
-      e.exports = function(e, t, n, r) {
-        let o = -1;
-        const u = null == e ? 0 : e.length;
-        for (r && u && (n = e[++o]); ++o < u; ) {n = t(n, e[o], o, e);}
+    2663: function (e) {
+      e.exports = function (e, t, n, r) {
+        var o = -1,
+          u = null == e ? 0 : e.length;
+        for (r && u && (n = e[++o]); ++o < u; ) n = t(n, e[o], o, e);
         return n;
       };
     },
-    9029: function(e) {
-      const t = /[^\x00-\x2f\x3a-\x40\x5b-\x60\x7b-\x7f]+/g;
-      e.exports = function(e) {
+    9029: function (e) {
+      var t = /[^\x00-\x2f\x3a-\x40\x5b-\x60\x7b-\x7f]+/g;
+      e.exports = function (e) {
         return e.match(t) || [];
       };
     },
-    4239: function(e, t, n) {
-      const r = n(2705);
-      const o = n(9607);
-      const u = n(2333);
-      const a = r ? r.toStringTag : void 0;
-      e.exports = function(e) {
+    4239: function (e, t, n) {
+      var r = n(2705),
+        o = n(9607),
+        u = n(2333),
+        a = r ? r.toStringTag : void 0;
+      e.exports = function (e) {
         return null == e
           ? void 0 === e
             ? '[object Undefined]'
             : '[object Null]'
           : a && a in Object(e)
-            ? o(e)
-            : u(e);
+          ? o(e)
+          : u(e);
       };
     },
-    8674: function(e) {
-      e.exports = function(e) {
-        return function(t) {
+    8674: function (e) {
+      e.exports = function (e) {
+        return function (t) {
           return null == e ? void 0 : e[t];
         };
       };
     },
-    531: function(e, t, n) {
-      const r = n(2705);
-      const o = n(9932);
-      const u = n(1469);
-      const a = n(3448);
-      const i = r ? r.prototype : void 0;
-      const f = i ? i.toString : void 0;
+    531: function (e, t, n) {
+      var r = n(2705),
+        o = n(9932),
+        u = n(1469),
+        a = n(3448),
+        i = r ? r.prototype : void 0,
+        f = i ? i.toString : void 0;
       e.exports = function e(t) {
-        if ('string' === typeof t) {return t;}
-        if (u(t)) {return `${o(t, e)  }`;}
-        if (a(t)) {return f ? f.call(t) : '';}
-        const n = `${t  }`;
+        if ('string' == typeof t) return t;
+        if (u(t)) return o(t, e) + '';
+        if (a(t)) return f ? f.call(t) : '';
+        var n = t + '';
         return '0' == n && 1 / t == -Infinity ? '-0' : n;
       };
     },
-    5393: function(e, t, n) {
-      const r = n(2663);
-      const o = n(3816);
-      const u = n(8748);
-      const a = RegExp('[\'’]', 'g');
-      e.exports = function(e) {
-        return function(t) {
+    5393: function (e, t, n) {
+      var r = n(2663),
+        o = n(3816),
+        u = n(8748),
+        a = RegExp("['’]", 'g');
+      e.exports = function (e) {
+        return function (t) {
           return r(u(o(t).replace(a, '')), e, '');
         };
       };
     },
-    9389: function(e, t, n) {
-      const r = n(8674)({
+    9389: function (e, t, n) {
+      var r = n(8674)({
         À: 'A',
         Á: 'A',
         Â: 'A',
@@ -349,132 +350,132 @@
         ĳ: 'ij',
         Œ: 'Oe',
         œ: 'oe',
-        ŉ: '\'n',
+        ŉ: "'n",
         ſ: 's',
       });
       e.exports = r;
     },
-    1957: function(e, t, n) {
-      const r = 'object' === typeof n.g && n.g && n.g.Object === Object && n.g;
+    1957: function (e, t, n) {
+      var r = 'object' == typeof n.g && n.g && n.g.Object === Object && n.g;
       e.exports = r;
     },
-    9607: function(e, t, n) {
-      const r = n(2705);
-      const o = Object.prototype;
-      const u = o.hasOwnProperty;
-      const a = o.toString;
-      const i = r ? r.toStringTag : void 0;
-      e.exports = function(e) {
-        const t = u.call(e, i);
-        const n = e[i];
+    9607: function (e, t, n) {
+      var r = n(2705),
+        o = Object.prototype,
+        u = o.hasOwnProperty,
+        a = o.toString,
+        i = r ? r.toStringTag : void 0;
+      e.exports = function (e) {
+        var t = u.call(e, i),
+          n = e[i];
         try {
           e[i] = void 0;
           var r = !0;
         } catch (f) {}
-        const o = a.call(e);
+        var o = a.call(e);
         return r && (t ? (e[i] = n) : delete e[i]), o;
       };
     },
-    3157: function(e) {
-      const t = /[a-z][A-Z]|[A-Z]{2}[a-z]|[0-9][a-zA-Z]|[a-zA-Z][0-9]|[^a-zA-Z0-9 ]/;
-      e.exports = function(e) {
+    3157: function (e) {
+      var t = /[a-z][A-Z]|[A-Z]{2}[a-z]|[0-9][a-zA-Z]|[a-zA-Z][0-9]|[^a-zA-Z0-9 ]/;
+      e.exports = function (e) {
         return t.test(e);
       };
     },
-    2333: function(e) {
-      const t = Object.prototype.toString;
-      e.exports = function(e) {
+    2333: function (e) {
+      var t = Object.prototype.toString;
+      e.exports = function (e) {
         return t.call(e);
       };
     },
-    5639: function(e, t, n) {
-      const r = n(1957);
-      const o = 'object' === typeof self && self && self.Object === Object && self;
-      const u = r || o || Function('return this')();
+    5639: function (e, t, n) {
+      var r = n(1957),
+        o = 'object' == typeof self && self && self.Object === Object && self,
+        u = r || o || Function('return this')();
       e.exports = u;
     },
-    2757: function(e) {
-      const t = '\\u2700-\\u27bf';
-      const n = 'a-z\\xdf-\\xf6\\xf8-\\xff';
-      const r = 'A-Z\\xc0-\\xd6\\xd8-\\xde';
-      const o =
-          '\\xac\\xb1\\xd7\\xf7\\x00-\\x2f\\x3a-\\x40\\x5b-\\x60\\x7b-\\xbf\\u2000-\\u206f \\t\\x0b\\f\\xa0\\ufeff\\n\\r\\u2028\\u2029\\u1680\\u180e\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200a\\u202f\\u205f\\u3000';
-      const u = `[${  o  }]`;
-      const a = '\\d+';
-      const i = '[\\u2700-\\u27bf]';
-      const f = `[${  n  }]`;
-      const c = `[^\\ud800-\\udfff${  o  }${a  }${t  }${n  }${r  }]`;
-      const l = '(?:\\ud83c[\\udde6-\\uddff]){2}';
-      const s = '[\\ud800-\\udbff][\\udc00-\\udfff]';
-      const d = `[${  r  }]`;
-      const x = `(?:${  f  }|${  c  })`;
-      const p = `(?:${  d  }|${  c  })`;
-      const m = '(?:[\'’](?:d|ll|m|re|s|t|ve))?';
-      const g = '(?:[\'’](?:D|LL|M|RE|S|T|VE))?';
-      const v = '(?:[\\u0300-\\u036f\\ufe20-\\ufe2f\\u20d0-\\u20ff]|\\ud83c[\\udffb-\\udfff])?';
-      const b = '[\\ufe0e\\ufe0f]?';
-      const h = `${b + v  }(?:\\u200d(?:${  ['[^\\ud800-\\udfff]', l, s].join('|')  })${  b  }${v  })*`;
-      const y = `(?:${  [i, l, s].join('|')  })${  h}`;
-      const E = RegExp(
-        [
-          `${d  }?${  f  }+${  m  }(?=${  [u, d, '$'].join('|')  })`,
-          `${p  }+${  g  }(?=${  [u, d + x, '$'].join('|')  })`,
-          `${d  }?${  x  }+${  m}`,
-          `${d  }+${  g}`,
-          '\\d*(?:1ST|2ND|3RD|(?![123])\\dTH)(?=\\b|[a-z_])',
-          '\\d*(?:1st|2nd|3rd|(?![123])\\dth)(?=\\b|[A-Z_])',
-          a,
-          y,
-        ].join('|'),
-        'g',
-      );
-      e.exports = function(e) {
+    2757: function (e) {
+      var t = '\\u2700-\\u27bf',
+        n = 'a-z\\xdf-\\xf6\\xf8-\\xff',
+        r = 'A-Z\\xc0-\\xd6\\xd8-\\xde',
+        o =
+          '\\xac\\xb1\\xd7\\xf7\\x00-\\x2f\\x3a-\\x40\\x5b-\\x60\\x7b-\\xbf\\u2000-\\u206f \\t\\x0b\\f\\xa0\\ufeff\\n\\r\\u2028\\u2029\\u1680\\u180e\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200a\\u202f\\u205f\\u3000',
+        u = '[' + o + ']',
+        a = '\\d+',
+        i = '[\\u2700-\\u27bf]',
+        f = '[' + n + ']',
+        c = '[^\\ud800-\\udfff' + o + a + t + n + r + ']',
+        l = '(?:\\ud83c[\\udde6-\\uddff]){2}',
+        s = '[\\ud800-\\udbff][\\udc00-\\udfff]',
+        d = '[' + r + ']',
+        x = '(?:' + f + '|' + c + ')',
+        p = '(?:' + d + '|' + c + ')',
+        m = "(?:['’](?:d|ll|m|re|s|t|ve))?",
+        g = "(?:['’](?:D|LL|M|RE|S|T|VE))?",
+        v = '(?:[\\u0300-\\u036f\\ufe20-\\ufe2f\\u20d0-\\u20ff]|\\ud83c[\\udffb-\\udfff])?',
+        b = '[\\ufe0e\\ufe0f]?',
+        h = b + v + ('(?:\\u200d(?:' + ['[^\\ud800-\\udfff]', l, s].join('|') + ')' + b + v + ')*'),
+        y = '(?:' + [i, l, s].join('|') + ')' + h,
+        E = RegExp(
+          [
+            d + '?' + f + '+' + m + '(?=' + [u, d, '$'].join('|') + ')',
+            p + '+' + g + '(?=' + [u, d + x, '$'].join('|') + ')',
+            d + '?' + x + '+' + m,
+            d + '+' + g,
+            '\\d*(?:1ST|2ND|3RD|(?![123])\\dTH)(?=\\b|[a-z_])',
+            '\\d*(?:1st|2nd|3rd|(?![123])\\dth)(?=\\b|[A-Z_])',
+            a,
+            y,
+          ].join('|'),
+          'g',
+        );
+      e.exports = function (e) {
         return e.match(E) || [];
       };
     },
-    3816: function(e, t, n) {
-      const r = n(9389);
-      const o = n(9833);
-      const u = /[\xc0-\xd6\xd8-\xf6\xf8-\xff\u0100-\u017f]/g;
-      const a = RegExp('[\\u0300-\\u036f\\ufe20-\\ufe2f\\u20d0-\\u20ff]', 'g');
-      e.exports = function(e) {
+    3816: function (e, t, n) {
+      var r = n(9389),
+        o = n(9833),
+        u = /[\xc0-\xd6\xd8-\xf6\xf8-\xff\u0100-\u017f]/g,
+        a = RegExp('[\\u0300-\\u036f\\ufe20-\\ufe2f\\u20d0-\\u20ff]', 'g');
+      e.exports = function (e) {
         return (e = o(e)) && e.replace(u, r).replace(a, '');
       };
     },
-    1469: function(e) {
-      const t = Array.isArray;
+    1469: function (e) {
+      var t = Array.isArray;
       e.exports = t;
     },
-    7005: function(e) {
-      e.exports = function(e) {
-        return null != e && 'object' === typeof e;
+    7005: function (e) {
+      e.exports = function (e) {
+        return null != e && 'object' == typeof e;
       };
     },
-    3448: function(e, t, n) {
-      const r = n(4239);
-      const o = n(7005);
-      e.exports = function(e) {
-        return 'symbol' === typeof e || (o(e) && '[object Symbol]' == r(e));
+    3448: function (e, t, n) {
+      var r = n(4239),
+        o = n(7005);
+      e.exports = function (e) {
+        return 'symbol' == typeof e || (o(e) && '[object Symbol]' == r(e));
       };
     },
-    1804: function(e, t, n) {
-      const r = n(5393)(function(e, t, n) {
+    1804: function (e, t, n) {
+      var r = n(5393)(function (e, t, n) {
         return e + (n ? '-' : '') + t.toLowerCase();
       });
       e.exports = r;
     },
-    9833: function(e, t, n) {
-      const r = n(531);
-      e.exports = function(e) {
+    9833: function (e, t, n) {
+      var r = n(531);
+      e.exports = function (e) {
         return null == e ? '' : r(e);
       };
     },
-    8748: function(e, t, n) {
-      const r = n(9029);
-      const o = n(3157);
-      const u = n(9833);
-      const a = n(2757);
-      e.exports = function(e, t, n) {
+    8748: function (e, t, n) {
+      var r = n(9029),
+        o = n(3157),
+        u = n(9833),
+        a = n(2757);
+      e.exports = function (e, t, n) {
         return (
           (e = u(e)), void 0 === (t = n ? void 0 : t) ? (o(e) ? a(e) : r(e)) : e.match(t) || []
         );

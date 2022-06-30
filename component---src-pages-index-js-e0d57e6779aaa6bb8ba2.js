@@ -1,18 +1,18 @@
 (self.webpackChunkv4 = self.webpackChunkv4 || []).push([
   [678],
   {
-    7704: function(e, t, n) {
+    7704: function (e, t, n) {
       'use strict';
       n.r(t);
-      const l = n(7294);
-      const a = n(9);
-      const c = n(7140);
-      const r = a.ZP.main.withConfig({
-        displayName: 'pages__StyledMainContainer',
-        componentId: 'sc-1tzx2o8-0',
-      })(['counter-reset:section;']);
-      t.default = function(e) {
-        const t = e.location;
+      var l = n(7294),
+        a = n(9),
+        c = n(7140),
+        r = a.ZP.main.withConfig({
+          displayName: 'pages__StyledMainContainer',
+          componentId: 'sc-1tzx2o8-0',
+        })(['counter-reset:section;']);
+      t.default = function (e) {
+        var t = e.location;
         return l.createElement(
           c.Ar,
           { location: t },
