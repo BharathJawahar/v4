@@ -1,1 +1,44 @@
-{"data":{"jobs":{"edges":[{"node":{"frontmatter":{"title":"Student Trainee","company":"Nokia","location":"Chennai, IN","range":"August - May 2023","url":"https://www.nokia.com/about-us/careers/student-and-graduate-opportunities/"},"html":"<ul>\n<li>Incoming Intern @Nokia 2022-23</li>\n</ul>"}},{"node":{"frontmatter":{"title":"ML Engineer / Junior Web Developer","company":"WeDefineNet","location":"Chennai, IN","range":"April - May 2021","url":"https://wedefinenet.com"},"html":"<ul>\n<li>Built and trained an ML Model using CNN algorithm, with more than 50k image dataset.</li>\n<li>Manually tested every case scenario</li>\n<li>Gave around 87% of accuracy rate</li>\n</ul>"}},{"node":{"frontmatter":{"title":"Android Developer / Web Developer","company":"Freelancing","location":"Chennai, IN","range":"April 2020","url":""},"html":"<ul>\n<li>Collaborated with a few clients to make their ideas come true</li>\n<li>Designed and developed 2 apps, an ML-based website single-handedly</li>\n</ul>"}}]}}}
+{
+  "data": {
+    "jobs": {
+      "edges": [
+        {
+          "node": {
+            "frontmatter": {
+              "title": "Student Trainee",
+              "company": "Nokia",
+              "location": "Chennai, IN",
+              "range": "August - May 2023",
+              "url": "https://www.nokia.com/about-us/careers/student-and-graduate-opportunities/"
+            },
+            "html": "<ul>\n<li>Incoming Intern @Nokia 2022-23</li>\n</ul>"
+          }
+        },
+        {
+          "node": {
+            "frontmatter": {
+              "title": "ML Engineer / Junior Web Developer",
+              "company": "WeDefineNet",
+              "location": "Chennai, IN",
+              "range": "April - May 2021",
+              "url": "https://wedefinenet.com"
+            },
+            "html": "<ul>\n<li>Built and trained an ML Model using CNN algorithm, with more than 50k image dataset.</li>\n<li>Manually tested every case scenario</li>\n<li>Gave around 87% of accuracy rate</li>\n</ul>"
+          }
+        },
+        {
+          "node": {
+            "frontmatter": {
+              "title": "Android Developer / Web Developer",
+              "company": "Freelancing",
+              "location": "Chennai, IN",
+              "range": "April 2020",
+              "url": ""
+            },
+            "html": "<ul>\n<li>Collaborated with a few clients to make their ideas come true</li>\n<li>Designed and developed 2 apps, an ML-based website single-handedly</li>\n</ul>"
+          }
+        }
+      ]
+    }
+  }
+}
