@@ -59,25 +59,17 @@ const Hero = () => {
 
   const one = <h1>Hello Hooman! I’m</h1>;
   const two = <h2 className="big-heading">Bharath Jawahar</h2>;
-  const three = <h3 className="small-heading">Aspiring Software Engineering Student</h3>;
+  const three = <h3 className="small-heading">Aspiring Polymath | Software Engineer</h3>;
   const four = (
     <>
       <p>
-        I’m a final-year software engineering student from{' '}
-        <a href="https://chennai.vit.ac.in/" target="_blank" rel="noreferrer">
-          VIT, Chennai
-        </a>
-        {', '}
-        currently interning as Student Trainee at{' '}
-        <a href="https://www.nokia.com" target="_blank" rel="noreferrer">
-          Nokia
-        </a>{' '}
+        I'm a software engineer based in Chennai, currently wrangling bugs and testing fiber R&D products at{' '} <a href="https://www.nokia.com" target="_blank" rel="noreferrer"> Nokia R&D </a>. I graduated from {' '} <a href="https://chennai.vit.ac.in/" target="_blank" rel="noreferrer"> VIT, Chennai </a> {', '}, and since then, I've been automating, debugging, and occasionally yelling at terminals (in lowercase, of course).
       </p>
       <p>
-        I have smashed many keyboards to learn various like Android/Web Development, ML, Big Data,
-        and others. But still looking for my niche and inner peace that makes me stop smashing the
-        keyboard. Currently, I’m smashing my keyboards to learn Linux and Terminal. BTW, I use Arch
-        (No, I can't hack your devices or accounts. Or can I?)
+        I speak Python, Bash, Java, and occasionally human. I'm currently diving into Docker, Networking, and whatever else my curiosity throws at me. My philosophy? Minimalist by style, modern by choice, and definitely here *by design, not by default*.
+      </p>
+      <p>
+        When I'm not smashing keys in frustration (or flow), I’m actually playing them — I dabble with the keyboard (the musical kind) to find some peace amidst the chaos. BTW, I use Arch Linux (No, I can't hack your devices or accounts. Or can I?). If you're into geeky banter about Linux distros or wondering why I chose to suffer, feel free to ping me.
       </p>
     </>
   );
